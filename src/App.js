@@ -14,11 +14,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Member List </h2>
         <div className = 'Form-Box'>
+        <h1>New Member Form </h1>
         <Form addNewMember = {addNewMember} />
+        <h2>Current Member List </h2>
         <Members memberList = {members} />
-         
+        <button className = 'edit'>Edit Members </button> 
         </div>
      
       </header> 
