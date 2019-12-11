@@ -1,0 +1,8 @@
+.label {
+   border: 2px dotted teal;
+   margin-left: 15px; 
+}
+.input {
+    background-color: teal;
+    color: white;
+}
