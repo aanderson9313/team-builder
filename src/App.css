@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Title1, .Title2 {
+  color: teal;
+}
+
+button {
+  color: White;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 5%;
+}

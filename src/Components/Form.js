@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Form.css';
 
 const Form = props => {
     const [member, setMember] = useState({
@@ -20,8 +20,8 @@ const Form = props => {
 
     return (
         <form onSubmit = {submitForm}>
-            <label htmlFor = 'name'>Team Member </label>
-            <input
+            <label className = 'label' htmlFor = 'name'>Team Member </label>
+            <input className = 'input'
              id = 'name' 
              name = 'name' 
              type = 'text' 
@@ -29,8 +29,8 @@ const Form = props => {
              onChange = {changeHandler} 
              value = {member.name}
               />
-            <label htmlFor = 'email'>Email </label>
-            <input 
+            <label className = 'label' htmlFor = 'email'>Email </label>
+            <input className = 'input'
             id = 'email' 
             name = 'email' 
             type = 'text' 
@@ -38,8 +38,8 @@ const Form = props => {
             onChange = {changeHandler} 
             value = {member.email}
              />
-            <label htmlFor = 'role'>Role</label>
-            <input 
+            <label className = 'label' htmlFor = 'role'>Role</label>
+            <input className = 'input'
             id = 'role' 
             name = 'role' 
             type = 'text' 
